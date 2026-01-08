@@ -100,7 +100,8 @@ body {
 .brands__toggle-icon {
     width: 24px;
     height: 24px;
-    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    display: block;
 }
 
 .brands__toggle-icon--hide {
