@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habsida</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="brands">
@@ -14,7 +14,7 @@
         </header>
 
         <div class="brands__slider" id="brandsSlider">
-            <div class="brand__list" id="brandsList">
+            <div class="brands__list" id="brandsList">
 
                 <a class="brands__item" href="#">
                     <img class="brands__logo" src="./image/lenovo.svg" alt="Lenovo">
@@ -74,13 +74,17 @@
         <div class="brands__pagination" id="brandsPagination"></div>
         </div>
 
-        <button class="brands__toggle" id="brandsToggle">
-            <img src="./image/expand.png" class="brands__toggle-icon" alt="">
+        <button class="brands__toggle" id="brandsToggle" type="button">
+            <img class="brands__toggle-icon brands__toggle-icon--show"
+            src="./image/expand down.svg" alt="">
+
+            <img class="brands__toggle-icon brands__toggle-icon--hide"
+            src="./image/expand up.png" alt="">
             <span class="brands__toggle-text">Показать все</span>
         </button>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
