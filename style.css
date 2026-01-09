@@ -125,11 +125,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
-    .brands__list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .brands.is-collapsed .brands__item:nth-child(-n + 6) {
+   .brands.is-collapsed .brands__item:nth-child(-n + 6) {
         display: flex;
     }
 }
